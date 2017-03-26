@@ -9,13 +9,13 @@ package com.cst.gpslocator;
  **                 void serviceToast(Context context, String text, int duration)
  **                 void makeToast(Activity activity, String text, int duration)
  **
- **  DATE:
+ **  DATE:          March 24, 2017
  **
  **
- **  DESIGNER:
+ **  DESIGNER:      John Agapeyev, Fred Yang
  **
  **
- **  PROGRAMMER:
+ **  PROGRAMMER:    John Agapeyev, Fred Yang
  **
  **  NOTES:
  **  Helper functions.
@@ -34,12 +34,14 @@ public class Helper {
 
     /*****************************************************************************
      * Function:    makeToast
-     * Date:
+     *
+     * Date:        March 24, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    John Agapeyev
      *
-     * Programmer:
+     * Programmer:  John Agapeyev
      *
      * Interface:   void makeToast(Activity activity, String text, int duration)
      *              Activity activity: current activity
@@ -69,12 +71,14 @@ public class Helper {
     
     /*****************************************************************************
      * Function:    serviceToast
-     * Date:
+     *
+     * Date:        March 24, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    John Agapeyev, Fred Yang
      *
-     * Programmer:
+     * Programmer:  John Agapeyev, Fred Yang
      *
      * Interface:   void serviceToast(Context context, String text, int duration)
      *              Activity context: current activity
@@ -89,7 +93,7 @@ public class Helper {
     public static void serviceToast(Context context, String text, int duration)
     {
         Toast toast = Toast.makeText(context, text, duration);
-        toast.setGravity(Gravity.CENTER,0, 0);
+        toast.setGravity(Gravity.CENTER, 0, 0);
         toast.show();
     }
 }

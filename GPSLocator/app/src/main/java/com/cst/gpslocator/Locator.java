@@ -13,13 +13,13 @@ package com.cst.gpslocator;
  **                 void clearForm(View view)
  **                 boolean validateForm()
  **
- **  DATE:
+ **  DATE:          March 24, 2017
  **
  **
- **  DESIGNER:   
+ **  DESIGNER:      Fred Yang, John Agapeyev
  **
  **
- **  PROGRAMMER: 
+ **  PROGRAMMER:    Fred Yang, John Agapeyev
  **
  **  NOTES:
  **  This Activity allows the user to input host information. A connection 
@@ -59,12 +59,14 @@ public class Locator extends AppCompatActivity {
 
     /*****************************************************************************
      * Function:    onCreate
-     * Date 
+     *
+     * Date :       March 24, 2017
+     *
      * Revision:
      *
-     * Designer: 
+     * Designer:    Fred Yang
      *
-     * Programmer: 
+     * Programmer:  Fred Yang
      *
      * Interface:   void onCreate(Bundle savedInstanceState)
      *              Bundle savedInstanceState: state before last close
@@ -112,12 +114,14 @@ public class Locator extends AppCompatActivity {
 
     /*****************************************************************************
      * Function:    onCreateOptionsMenu
-     * Date:
+     *
+     * Date:        March 24, 2017
+     *
      * Revision:
      *
-     * Designer: 
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer: 
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   boolean onCreateOptionsMenu(Menu menu)
      *              Menu menu: the menu items to be inflated
@@ -136,12 +140,14 @@ public class Locator extends AppCompatActivity {
 
     /*****************************************************************************
      * Function:    onOptionsItemSelected
-     * Date:
-     * Revision:
      *
-     * Designer: 
+     * Date:        March 25, 2017
      *
-     * Programmer: 
+     * Revision:    
+     *
+     * Designer:    Fred Yang
+     *
+     * Programmer:  Fred Yang
      *
      * Interface:   boolean  onOptionsItemSelected(MenuItem item)
      *              MenuItem item: menu item selected
@@ -165,12 +171,14 @@ public class Locator extends AppCompatActivity {
 
     /*****************************************************************************
      * Function:    clearForm
-     * Date 
+     *
+     * Date :       March 22, 2017
+     *
      * Revision:
      *
-     * Designer: 
+     * Designer:    Fred Yang
      *
-     * Programmer: 
+     * Programmer:  Fred Yang
      *
      * Interface:   void clearForm(View view)
      *              View view: the view where the form rendering on
@@ -196,12 +204,14 @@ public class Locator extends AppCompatActivity {
 
     /*****************************************************************************
      * Function:    submitForm
-     * Date:
+     *
+     * Date:        March 19, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     *Programmer:
+     *Programmer:   Fred Yang, John Agapeyev
      *
      *Interface:    void submitForm(View view)
      *              View view: the view where the form rendering on
@@ -249,16 +259,16 @@ public class Locator extends AppCompatActivity {
     }
 
 
-
-
     /*****************************************************************************
      * Function:    validateForm
-     * Date:
+     *
+     * Date:        March 20, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   boolean validateForm()
      *

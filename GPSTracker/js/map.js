@@ -1,18 +1,18 @@
 /**********************************************************************
-**  SOURCE FILE:    map-script.js -  Javascript for the Google map view
+**  SOURCE FILE:    map.js -  Javascript for the Google map view
 **      
 **  PROGRAM:        GPS Locator
 **
 **  FUNCTIONS:
 **
 **
-**  DATE:
-**              
+**  DATE:           March 25, 2017
 **
-**  DESIGNER:
+**
+**  DESIGNER:       Maitiu Morton
 **          
 **
-**  PROGRAMMER:
+**  PROGRAMMER:     Maitiu Morton
 **
 **  NOTES:
 **  Displays the customized Google map.
@@ -41,14 +41,14 @@ var pin = {
 /*******************************************************************
 ** Function:    $(document).ready()
 **
-** Date:
+** Date:        March 25, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Maitiu Morton
 **
-** Programmer:
+** Programmer:  Maitiu Morton
 **
 ** Interface:
 **              $(document).ready(function()
@@ -73,14 +73,14 @@ $(document).ready(function()
 /*******************************************************************
 ** Function:    initialize
 **
-** Date:
+** Date:        March 25, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Maitiu Morton
 **
-** Programmer:
+** Programmer:  Maitiu Morton
 **
 ** Interface:
 **              initialize()
@@ -153,15 +153,15 @@ function initialize()
 
 /*******************************************************************
 ** Function:    handleNoGeolocation
-**
-** Date:
+**  
+** Date:        March 25, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Maitiu Morton
 **
-** Programmer:
+** Programmer:  Maitiu Morton
 **
 ** Interface:
 **              handleNoGeolocation(errorFlag) 
@@ -197,14 +197,14 @@ function handleNoGeolocation(errorFlag)
 /*******************************************************************
 ** Function:    loadData
 **
-** Date:
+** Date:        March 25, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Maitiu Morton
 **
-** Programmer:
+** Programmer:  Maitiu Morton
 **
 ** Interface:
 **              loadData()
@@ -268,14 +268,14 @@ function loadData()
 /*******************************************************************
 ** Function:    addMarker
 **
-** Date:
-**
+** Date:        March 24, 2017
+**  
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Maitiu Morton
 **
-** Programmer:
+** Programmer:  Maitiu Morton
 **
 ** Interface:
 **              addMarker(time, ip, devName, latitude, longitude)
@@ -305,14 +305,14 @@ function addMarker(time, ip, devName, latitude, longitude)
 /*******************************************************************
 ** Function:    getAddress
 **
-** Date:
+** Date:        March 18, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Maitiu Morton
 **
-** Programmer:
+** Programmer:  Maitiu Morton
 **
 ** Interface:
 **              getAddress(time, ip, devName, latitude, longitude)
@@ -323,7 +323,6 @@ function addMarker(time, ip, devName, latitude, longitude)
 **              longitude: longitude of the pin
 **
 ** Returns:
-**          void
 **
 ** Notes:
 ** Fetches the address from the specified location and creates a marker.
@@ -360,14 +359,14 @@ function getAddress(time, ip, devName, latitude, longitude)
 /*******************************************************************
 ** Function:    createMarker
 **
-** Date:
+** Date:        March 21, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Maitiu Morton
 **
-** Programmer:
+** Programmer:  Maitiu Morton
 **
 ** Interface:
 **              createMarker(time, ip, devName, location, addr)

@@ -11,13 +11,13 @@ package com.cst.gpslocator;
  **                 String getPref(Context c, String key)
  **                 void setPref(Context c, String key, String value)
  **
- **  DATE:
+ **  DATE:          March 23, 2017
  **
  **
- **  DESIGNER:
+ **  DESIGNER:      Fred Yang, John Agapeyev
  **
  **
- **  PROGRAMMER:
+ **  PROGRAMMER:    Fred Yang, John Agapeyev
  **
  **  NOTES:
  **  This Static class handles the interaction with the Android
@@ -36,12 +36,14 @@ public class PrefHandler
 
     /*****************************************************************************
      * Function:    checkPref
-     * Date:
+     *
+     * Date:        March 23, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer: 
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   String[] checkPref(Context c)
      *              Context c: Current context
@@ -64,12 +66,14 @@ public class PrefHandler
 
     /*****************************************************************************
      * Function:    addPref
-     * Date:
+     *
+     * Date:        March 24, 2017
+     *
      * Revision:
      *
-     * Designer: 
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   void addPref(Context c, String host, String port)
      *              Context c: current context
@@ -93,12 +97,14 @@ public class PrefHandler
 
     /*****************************************************************************
      * Function:    getPref
-     * Date:
+     *
+     * Date:        March 24, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   String getPreference(Context c, String key)
      *              Context: current context
@@ -118,12 +124,14 @@ public class PrefHandler
 
     /*****************************************************************************
      * Function:    setPref
-     * Date:
+     *
+     * Date:        March 24, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   void setPref(Context c, String key, String value))
      *              Context c: current app context

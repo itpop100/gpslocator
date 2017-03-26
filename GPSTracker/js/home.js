@@ -1,18 +1,18 @@
 /**********************************************************************
-**  SOURCE FILE:    home-script.js -  Javascript for the home page
+**  SOURCE FILE:    home.js -  Javascript for the home page
 **      
 **  PROGRAM:        GPS Locator
 **
 **  FUNCTIONS:
 **
 **
-**  DATE:
+**  DATE:           March 25, 2017
 **
 **
-**  DESIGNER: 
+**  DESIGNER:       Isaac Morneau
 **
 **
-**  PROGRAMMER:
+**  PROGRAMMER:     Isaac Morneau
 **
 **  NOTES:
 **  Displays the location information of active users.
@@ -21,14 +21,14 @@
 /*******************************************************************
 ** Function:    $(document).ready()
 **
-** Date:
+** Date:        March 24, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Isaac Morneau
 **
-** Programmer:
+** Programmer:  Isaac Morneau
 **
 ** Interface:
 **              $(document).ready(function()
@@ -50,14 +50,14 @@ $(document).ready(function()
 /*******************************************************************
 ** Function:    loadData
 **
-** Date:
+** Date:        March 25, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Isaac Morneau
 **
-** Programmer:
+** Programmer:  Isaac Morneau
 **
 ** Interface:
 **              loadData()
@@ -121,14 +121,14 @@ function loadData()
 /*******************************************************************
 ** Function:    addToTable
 **
-** Date:
+** Date:        March 25, 2017
 **
 ** Revisions: 
 **
 **
-** Designer:
+** Designer:    Isaac Morneau
 **
-** Programmer:
+** Programmer:  Isaac Morneau
 **
 ** Interface:
 **              addToTable(time, ip, devName, latitude, longitude)

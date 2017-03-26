@@ -13,13 +13,13 @@ package com.cst.gpslocator;
  **                 void toggleTracking(View view)
  **                 void goBack(View view)
  **
- **  DATE:
+ **  DATE:          March 20, 2017
  **
  **
- **  DESIGNER:
+ **  DESIGNER:      John Agapeyev
  **
  **
- **  PROGRAMMER: 
+ **  PROGRAMMER:    John Agapeyev
  **
  **  NOTES:
  **  This console provides: 
@@ -49,12 +49,14 @@ public class LocatorConsole extends AppCompatActivity
 
     /*****************************************************************************
      * Function:    onCreate
-     * Date:
+     *
+     * Date:        March 20, 2017
+     *
      * Revision:
      *
-     * Designer: 
+     * Designer:    John Agapeyev
      *
-     * Programmer:
+     * Programmer:  John Agapeyev
      *
      * Interface:   void onCreate(Bundle savedInstanceState)
      *              Bundle savedInstanceState: state before last close
@@ -79,12 +81,14 @@ public class LocatorConsole extends AppCompatActivity
 
     /*****************************************************************************
      * Function:    onCreateOptionsMenu
-     * Date:
+     *
+     * Date:        March 21, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    John Agapeyev
      *
-     * Programmer:
+     * Programmer:  John Agapeyev
      *
      * Interface:   boolean onCreateOptionsMenu(Menu menu)
      *              Menu menu: the menu items to be inflated
@@ -104,12 +108,14 @@ public class LocatorConsole extends AppCompatActivity
 
     /*****************************************************************************
      * Function:    onOptionsItemSelected
-     * Date:
+     *
+     * Date:        March 21, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    John Agapeyev
      *
-     *Programmer:
+     *Programmer:   John Agapeyev
      *
      *Interface:    boolean  onOptionsItemSelected(MenuItem item)
      *              MenuItem item: item selected in the menu
@@ -135,12 +141,14 @@ public class LocatorConsole extends AppCompatActivity
 
     /*****************************************************************************
      * Function:    toggleTracking
-     * Date:
+     *
+     * Date:        March 21, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    John Agapeyev
      *
-     * Programmer:
+     * Programmer:  John Agapeyev
      *
      * Interface:   void toggleTracking(View view)
      *              View view: the view where the form rendering on
@@ -180,12 +188,14 @@ public class LocatorConsole extends AppCompatActivity
 
     /*****************************************************************************
      * Function:    goBack
-     * Date:
+     *
+     * Date:        March 22, 2017
+     *
      * Revision:
      *
-     * Designer: 
+     * Designer:    John Agapeyev
      *
-     * Programmer: 
+     * Programmer:  John Agapeyev
      *
      * Interface:   void goBack(View view)
      *              View view: the view where the form rendering on
@@ -212,12 +222,14 @@ public class LocatorConsole extends AppCompatActivity
 
     /*****************************************************************************
      * Function:    showMap
-     * Date:
+     *
+     * Date:        March 22, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    John Agapeyev
      *
-     * Programmer: 
+     * Programmer:  John Agapeyev
      *
      * Interface:   void showMap(View view)
      *              View view: the view where the form rendering on

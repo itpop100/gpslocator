@@ -1,0 +1,142 @@
+---------------------------------------------------------------
+               Android GPS Locator - Manifest File
+---------------------------------------------------------------
+
+List all files required for each component of the project.
+Refer to design documentation section 4 - Listings for details.
+
+---------------------------------------------------------------
+                    Android Client App
+---------------------------------------------------------------
+The files of Android application reside in GPSLocator/app/src/main folder.
+Java files reside in main/java folder (cst.com package), and resources are
+located at main/res folder.
+
+- main
+   |
+   java
+     |
+      com.cst.gpslocator
+        |
+        Connect.java
+        |
+        Helper.java
+        |
+        Locator.java
+        |
+        LocatorConsole.java
+        |
+        LocatorService.java
+        |
+        PrefHandler.java
+   |
+   res
+     |
+      drawable
+        |
+         blue_button.xml
+        |
+         red_button.xml
+        |
+         toast_body.xml
+        |
+         toast_border.xml
+     |
+      layout
+        |
+         activity_console.xml
+        |
+         activity_locator.xml
+        |
+         custom_toast.xml
+     |
+      menu
+        |
+         menu_console.xml
+        |
+         menu_locator.xml
+     |
+      mipmap
+     |
+      values
+        |
+         colors.xml
+        |
+         dimens.xml
+        |
+         strings.xml
+        |
+         styles.xml      
+
+----AndroidManifest.xml
+
+- app
+    |
+     build
+       |
+        outputs
+           |
+             GPSLocator.apk
+
+
+---------------------------------------------------------------
+                    Server Application
+---------------------------------------------------------------
+Server application files are placed in the same folder as index.html
+on the Apache web server.
+
+- GPSTracker
+    |
+     GPSTracker.java
+    |
+     GPSTracker.class
+    |
+     Tracker.xml
+
+     
+---------------------------------------------------------------
+                    Apache Web Server
+---------------------------------------------------------------
+
+- GPSTracker
+    |
+     .htaccess
+    |
+     .htpasswd
+    |
+     index.html
+    |
+     assets
+       |
+        favicon.png
+       |
+        marker.png
+    |
+     css
+       |
+        Clemente.ttf
+       |
+        Gronny.ttf
+       |
+        Scarlett.ttf
+       |
+        style.css
+    |
+     img
+       |
+        topbar_bg.jpg
+    |
+     js
+      |
+       jquery-2.1.3.min.js
+      |
+       home.js
+      |
+       map.js
+    |
+     pages
+       |
+        map.html       
+
+
+

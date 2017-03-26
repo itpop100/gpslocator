@@ -18,14 +18,13 @@ package com.cst.gpslocator;
  **                 void onDestroy()
  **
  **
- **
- **  DATE:
- **
- **
- **  DESIGNER:
+ **  DATE:          March 21, 2017
  **
  **
- **  PROGRAMMER: 
+ **  DESIGNER:      Fred Yang, John Agapeyev
+ **
+ **
+ **  PROGRAMMER:    Fred Yang, John Agapeyev
  **
  **  NOTES:
  **  This class extends from Service, check in device's location once the
@@ -71,12 +70,14 @@ public class LocatorService extends Service
 
     /*****************************************************************************
      * Function:    onCreate
-     * Date:
+     *
+     * Date:        March 22, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang
      *
-     * Programmer: 
+     * Programmer:  Fred Yang
      *
      * Interface:   void onCreate(Bundle savedInstanceState)
      *              Bundle savedInstanceState: state before last close
@@ -115,12 +116,14 @@ public class LocatorService extends Service
 
     /*****************************************************************************
      * Function:    onStartCommand
-     * Date
+     *
+     * Date:        March 22, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang
      *
-     * Programmer: 
+     * Programmer:  Fred Yang
      *
      * Interface:   int onStartCommand(Intent intent, int flags, int startId)
      *              Intent intent: intent from the starter
@@ -149,12 +152,14 @@ public class LocatorService extends Service
 
     /*****************************************************************************
      * Function:    onBind
-     * Date:
+     *
+     * Date:        March 22, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang
      *
-     * Programmer: 
+     * Programmer:  Fred Yang
      *
      * Interface:   IBinder onBind(Intent intent)
      *              Intent intent: intent to bind on
@@ -174,12 +179,14 @@ public class LocatorService extends Service
 
     /*****************************************************************************
      * Function:    onDestroy
-     * Date:
+     *
+     * Date:        March 22, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang
      *
-     * Programmer:
+     * Programmer:  Fred Yang
      *
      * Interface:   void onDestroy()
      *
@@ -215,12 +222,14 @@ public class LocatorService extends Service
 
         /***********************************************************************
          * Function:    handleMessage
-         * Date:
+         *
+         * Date:        March 22, 2017
+         *
          * Revision:
          *
-         * Designer: 
+         * Designer:    Fred Yang
          *
-         * Programmer:
+         * Programmer:  Fred Yang
          *
          * Interface:   void handleMessage(Message msg)
          *              Message msg: message received from the service
@@ -259,12 +268,14 @@ public class LocatorService extends Service
 
         /***********************************************************************
          * Function:    checkinLocation
-         * Date:
+         *
+         * Date:        March 22, 2017
+         *
          * Revision:
          *
-         * Designer: 
+         * Designer:    Fred Yang, John Agapeyev
          *
-         *Programmer: 
+         * Programmer:  Fred Yang, John Agapeyev
          *
          *Interface:    void checkinLocation (Location loc, String time)
          *              location loc: location data
@@ -295,12 +306,14 @@ public class LocatorService extends Service
 
             /***********************************************************************
              * Function:    onLocationChanged
-             * Date:
+             *
+             * Date:        March 22, 2017
+             *
              * Revision:
              *
-             * Designer: 
+             * Designer:    Fred Yang, John Agapeyev
              *
-             * Programmer: 
+             * Programmer:  Fred Yang, John Agapeyev
              *
              * Interface:   void onLocationChanged(Location location)
              *              Location location: new location
@@ -331,12 +344,14 @@ public class LocatorService extends Service
 
             /***********************************************************************
              * Function:    onStatusChanged
-             * Date:
+             *
+             * Date:        March 22, 2017
+             *
              * Revision:
              *
-             * Designer:
+             * Designer:    Fred Yang, John Agapeyev
              *
-             * Programmer: 
+             * Programmer:  Fred Yang, John Agapeyev
              *
              * Interface:   void onStatusChanged(String provider, int status, Bundle extras)
              *              String provider: the provider that has changed
@@ -357,12 +372,14 @@ public class LocatorService extends Service
 
             /***********************************************************************
              * Function:    onProviderEnabled
-             * Date:
+             *
+             * Date:        March 22, 2017
+             *
              * Revision:
              *
-             * Designer: 
+             * Designer:    Fred Yang
              *
-             * Programmer:
+             * Programmer:  Fred Yang
              *
              * Interface:   void onProviderEnabled(String provider)
              *              String provider: the provider that is enabled
@@ -381,12 +398,14 @@ public class LocatorService extends Service
 
             /***********************************************************************
              * Function:    onProviderDisabled
-             * Date:
+             *
+             * Date:        March 25, 2017
+             *
              * Revision:
              *
-             * Designer:
+             * Designer:    Fred Yang
              *
-             * Programmer:
+             * Programmer:  Fred Yang
              *
              * Interface:   void onProviderDisabled(String provider)
              *              String provider: the provider that is now enabled
