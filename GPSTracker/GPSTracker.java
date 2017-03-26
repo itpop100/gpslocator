@@ -17,9 +17,9 @@
 --
 -- REVISIONS:
 --
--- DESIGNER: 
+-- DESIGNER:    Fred Yang, Isaac Morneau
 --
--- PROGRAMMER: 
+-- PROGRAMMER:  Fred Yang, Isaac Morneau
 --
 -- NOTES:
 -- This server receives a formatted string sent from client, extracts the data, and stores it
@@ -57,9 +57,9 @@ public class GPSTracker extends Thread
     --
     -- REVISIONS:
     --
-    -- DESIGNER:
+    -- DESIGNER:    Fred Yang, Isaac Morneau
     --
-    -- PROGRAMMER:
+    -- PROGRAMMER:  Fred Yang, Isaac Morneau
     --
     -- INTERFACE:   public GPSTracker(int port) throws IOException
     --              int port: the port listening on
@@ -79,13 +79,13 @@ public class GPSTracker extends Thread
     /*---------------------------------------------------------------------------------------------
     -- FUNCTION:    main
     --
-    -- DATE:        March 18, 2017
+    -- DATE:        March 25, 2017
     --
     -- REVISIONS:
     --
-    -- DESIGNER:
+    -- DESIGNER:    Fred Yang, Isaac Morneau
     --
-    -- PROGRAMMER:
+    -- PROGRAMMER:  Fred Yang, Isaac Morneau
     --
     -- INTERFACE:   public static void main (String [] args)
     --              String [] args // command line arguments
@@ -123,13 +123,13 @@ public class GPSTracker extends Thread
     /*---------------------------------------------------------------------------------------------
     -- FUNCTION:    run
     --
-    -- DATE:        March 18, 2017
+    -- DATE:        March 25, 2017
     --
     -- REVISIONS: 
     --
-    -- DESIGNER: 
+    -- DESIGNER:    Fred Yang, Isaac Morneau
     --
-    -- PROGRAMMER: 
+    -- PROGRAMMER:  Fred Yang, Isaac Morneau
     --
     -- INTERFACE:   public void run()
     --
@@ -182,9 +182,9 @@ public class GPSTracker extends Thread
     --
     -- REVISIONS: 
     --
-    -- DESIGNER:
+    -- DESIGNER:    Fred Yang, Isaac Morneau
     --
-    -- PROGRAMMER:
+    -- PROGRAMMER:  Fred Yang, Isaac Morneau
     --
     -- INTERFACE:   public void addUser(String message)
     --              String message: formatted string containing user data
@@ -237,13 +237,13 @@ public class GPSTracker extends Thread
     /*------------------------------------------------------------------------------------------------------------------
     -- FUNCTION:    getUser
     --
-    -- DATE:        March 18, 2017
+    -- DATE:        March 24, 2017
     --
     -- REVISIONS:
     --
-    -- DESIGNER: 
+    -- DESIGNER:    Isaac Morneau, Fred Yang
     --
-    -- PROGRAMMER:
+    -- PROGRAMMER:  Isaac Morneau, Fred Yang
     --
     -- INTERFACE:   public String getUser(String message)
     --              String message: formatted string containing user data
@@ -315,9 +315,9 @@ public class GPSTracker extends Thread
     --
     -- REVISIONS: 
     --
-    -- DESIGNER: 
+    -- DESIGNER:    Isaac Morneau, Fred Yang
     --
-    -- PROGRAMMER: 
+    -- PROGRAMMER:  Isaac Morneau, Fred Yang
     --
     -- INTERFACE:   public int getNextElement(String message, int start)
     --              String message: formatted string containing user data
@@ -347,9 +347,9 @@ public class GPSTracker extends Thread
     --
     -- REVISIONS:
     --
-    -- DESIGNER: 
+    -- DESIGNER:    Isaac Morneau, Fred Yang
     --
-    -- PROGRAMMER:
+    -- PROGRAMMER:  Isaac Morneau, Fred Yang
     --
     -- INTERFACE:   public void close(String message)
     --              String message: error message

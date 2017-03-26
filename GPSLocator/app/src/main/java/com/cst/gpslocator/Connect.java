@@ -18,13 +18,13 @@ package com.cst.gpslocator;
  **                 String doInBackground(Void... params)
  **                 void onPostExecute(String result)
  **
- **  DATE:
+ **  DATE:          March 20, 2017
  **
  **
- **  DESIGNER:
+ **  DESIGNER:      Fred Yang, John Agapeyev
  **
  **
- **  PROGRAMMER:
+ **  PROGRAMMER:    Fred Yang, John Agapeyev
  **
  **  NOTES:
  **  Intiailizes the connection to the remote server.
@@ -53,13 +53,15 @@ import java.util.concurrent.TimeoutException;
 
 
 /*****************************************************************************
- * Class:   Connect implements Runnable
- * Date:
+ * Class:       Connect implements Runnable
+ *
+ * Date:        March 24, 2017
+ *
  * Revision:
  *
- * Designer:
+ * Designer:    Fred Yang, John Agapeyev
  *
- * Programmer:
+ * Programmer:  Fred Yang, John Agapeyev
  *
  *
  * Notes:
@@ -86,10 +88,12 @@ public class Connect implements Runnable {
 
     /*****************************************************************************
      * Function:    Connect
-     * Date:
-     * Revision:
      *
-     * Designer:
+     * Date:        March 23, 2017
+     *
+     * Revision:    Fred Yang, John Agapeyev
+     *
+     * Designer:    Fred Yang, John Agapeyev
      *
      * Programmer:
      *
@@ -108,12 +112,14 @@ public class Connect implements Runnable {
 
     /*****************************************************************************
      * Function:    initSocket
-     * Date:
+     *
+     * Date:        March 23, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   void initSocket()
      *
@@ -141,12 +147,14 @@ public class Connect implements Runnable {
     
     /*****************************************************************************
      * Function:    setDevIp
-     * Date:
+     *
+     * Date:        March 23, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   void setDevIp()
      *
@@ -169,12 +177,14 @@ public class Connect implements Runnable {
 
     /*****************************************************************************
      * Function:    setPacketData
-     * Date:
+     *
+     * Date:        March 20, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   void setPacketData(String time, String latitude, String longitude)
      *              String time: time the device connects to the server
@@ -197,12 +207,14 @@ public class Connect implements Runnable {
 
     /*****************************************************************************
      * Function:    run
-     * Date:
+     *
+     * Date:        March 20, 2017
+     *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      * Interface:   void run()
      *
@@ -233,16 +245,16 @@ public class Connect implements Runnable {
     }
 
 
-
     /*****************************************************************************
-     * Function:   teardown
-     * Date:
+     * Function:    teardown
      *
-     * Revision:
+     * Date:        March 20, 2017
      *
-     * Designer:
+     * Revision:    
+     *  
+     * Designer:    Fred Yang
      *
-     * Programmer:
+     * Programmer:  Fred Yang
      *
      * Interface:   void teardown()
      *
@@ -259,11 +271,12 @@ public class Connect implements Runnable {
 
     /*****************************************************************************
      * Function:    foundHost
-     * Date:
      *
-     * Revision:
+     * Date:        March 19, 2017
      *
-     * Designer:
+     * Revision:    John Agapeyev
+     *
+     * Designer:    John Agapeyev
      *
      * Programmer:
      *
@@ -304,18 +317,18 @@ public class Connect implements Runnable {
             return false;
         }
     }
-
-
+    
 
     /*****************************************************************************
      * Class:       AsyncLookup
-     * Date:
+     *
+     * Date:        March 20, 2017
      *
      * Revision:
      *
-     * Designer:
+     * Designer:    Fred Yang, John Agapeyev
      *
-     * Programmer:
+     * Programmer:  Fred Yang, John Agapeyev
      *
      *
      * Notes:
@@ -327,13 +340,14 @@ public class Connect implements Runnable {
     {
         /*****************************************************************************
          * Function:    doInBackground
-         * Date:
+         *
+         * Date:        March 20, 2017
          *
          * Revision:
          *
-         * Designer:
+         * Designer:    Fred Yang, John Agapeyev
          *
-         * Programmer:
+         * Programmer:  Fred Yang, John Agapeyev
          *
          * Interface:   String doInBackground(Void... params)
          *              params: list of parameters
@@ -370,13 +384,14 @@ public class Connect implements Runnable {
 
         /*****************************************************************************
          * Function:    onPostExecute
-         * Date:
+         *
+         * Date:        March 21, 2017
          *
          * Revision:
          *
-         * Designer:
+         * Designer:    Fred Yang, John Agapeyev
          *
-         * Programmer:
+         * Programmer:  Fred Yang, John Agapeyev
          *
          *Interface:    void onPostExecute(String result)
          *              String result: result of the background service
