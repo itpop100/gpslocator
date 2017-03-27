@@ -245,24 +245,24 @@ public class LocatorService extends Service
         {
             try {
                 // check if permissions are granted
-                Log.d(TAG, "hanlde messge 01");
+                Log.d(TAG, "handleMessage: start");
                 locationManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 
                 mListener = new MyLocationListener();
                 mCriteria = new Criteria();
-                mCriteria.setAccuracy(Criteria.ACCURACY_MEDIUM);
+                mCriteria.setAccuracy(Criteria.ACCURACY_COARSE);
                 mProvider = locationManager.getBestProvider(mCriteria, false);
                 locationManager.requestLocationUpdates(mProvider, INTERVAL, DISTANCE, mListener);
                 mLocation = locationManager.getLastKnownLocation(mProvider);
 
                 if (mLocation != null) {
                     mListener.onLocationChanged(mLocation);
-                    Log.d(TAG, "hanlde messge 01a");
+                    Log.d(TAG, "handleMessage: location changed");
                 }
             } catch (SecurityException se) {
                 Log.d(TAG, this.getClass().getSimpleName() + ": " + se.getMessage());
             }
-            Log.d(TAG, "hanlde messge 01b");
+            Log.d(TAG, "handleMessage: end");
         }
 
 

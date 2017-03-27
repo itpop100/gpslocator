@@ -7,4 +7,28 @@
         <latitude>49.290645901</latitude>
         <longitude>-122.78852078</longitude>
     </user>
+    <user>
+        <time>2017/03/26 17:38:32</time>
+        <ip>192.168.1.4</ip>
+        <devId>739beae5517fd5d8</devId>
+        <devName>SM-G730W8</devName>
+        <latitude>49.29318562</latitude>
+        <longitude>-122.78276464</longitude>
+    </user>
+    <user>
+        <time>2017/03/26 17:40:35</time>
+        <ip>192.168.1.4</ip>
+        <devId>739beae5517fd5d8</devId>
+        <devName>SM-G730W8</devName>
+        <latitude>49.29318562</latitude>
+        <longitude>-122.78276464</longitude>
+    </user>
+    <user>
+        <time>2017/03/26 17:41:46</time>
+        <ip>192.168.1.4</ip>
+        <devId>739beae5517fd5d8</devId>
+        <devName>SM-G730W8</devName>
+        <latitude>49.29318562</latitude>
+        <longitude>-122.78276464</longitude>
+    </user>
 </users>
