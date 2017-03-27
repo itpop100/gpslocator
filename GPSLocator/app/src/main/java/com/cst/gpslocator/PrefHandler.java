@@ -56,7 +56,8 @@ public class PrefHandler
    static String[] checkPref(Context c)
    {
        String[] pref = new String[2];
-       SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_WORLD_READABLE);
+       //SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_WORLD_READABLE);
+       SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_PRIVATE);
        pref[0] = sharedpreferences.getString(HOST_PREF, "");
        pref[1] = sharedpreferences.getString(PORT_PREF, "");
 
@@ -87,7 +88,8 @@ public class PrefHandler
      **************************************************************************/
     static void addPref(Context c, String host, String port)
     {
-        SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_WORLD_READABLE);
+        //SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_WORLD_READABLE);
+        SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedpreferences.edit();
         editor.putString(HOST_PREF, host);
         editor.putString(PORT_PREF, port);
@@ -117,7 +119,8 @@ public class PrefHandler
      **************************************************************************/
     static String getPref(Context c, String key)
     {
-        SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_WORLD_READABLE);
+        //SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_WORLD_READABLE);
+        SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_PRIVATE);
         return sharedpreferences.getString(key, "");
     }
 
@@ -145,7 +148,8 @@ public class PrefHandler
      **************************************************************************/
     static void setPref(Context c, String key, String value)
     {
-        SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_WORLD_READABLE);
+        //SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_WORLD_READABLE);
+        SharedPreferences sharedpreferences = c.getSharedPreferences(PrefName, Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sharedpreferences.edit();
         editor.putString(key, value);
         editor.commit();

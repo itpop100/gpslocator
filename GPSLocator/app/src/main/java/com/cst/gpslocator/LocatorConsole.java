@@ -242,7 +242,8 @@ public class LocatorConsole extends AppCompatActivity
     public void showMap(View view)
     {
         // open in-app browser activity to show active users
-        String url = "http://" + PrefHandler.getPref(this, PrefHandler.HOST_PREF) + SUBURL;
+        //String url = "http://" + PrefHandler.getPref(this, PrefHandler.HOST_PREF) + SUBURL;
+        String url = "http://" + PrefHandler.getPref(this, PrefHandler.HOST_PREF);
         Intent intent = new Intent(Intent.ACTION_VIEW);
         intent.setData(Uri.parse(url));
         startActivity(intent);
