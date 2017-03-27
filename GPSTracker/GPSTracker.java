@@ -40,15 +40,15 @@ import java.net.SocketTimeoutException;
 
 public class GPSTracker extends Thread
 {
-    private static final int PACK_SIZE = 256;    // packet size
-    private static final int DEFAULT_PORT = 8910;// default udp port
+    private static final int PACK_SIZE = 256;     // packet size
+    private static final int DEFAULT_PORT = 25324;// default udp port
     
-    private String message;                      // message received
-    private DatagramSocket listenSocket;         // listening socket
-    private DatagramPacket packet;               // datagram packet
+    private String message;                       // message received
+    private DatagramSocket listenSocket;          // listening socket
+    private DatagramPacket packet;                // datagram packet
 
-    private byte[] packetData;                   // packet data
-    private InetAddress ipAddr;                  // IPV4 address
+    private byte[] packetData;                    // packet data
+    private InetAddress ipAddr;                   // IPV4 address
 
     /*---------------------------------------------------------------------------------------------
     -- FUNCTION:    GPSTracker
